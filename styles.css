@@ -1,0 +1,116 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(whitesmoke, skyblue, #EFB0C9);
+    color: burlywood;
+}
+
+h1, h2, h3, h4 {
+    text-shadow: 1px 1px 3px black;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 25%;
+    border: 2px solid burlywood;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: green;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: green;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    width: 500px;
+    height: 600px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#oppenheimer:hover {
+  background-image: url("https://i.redd.it/4nj1l524d1ya1.jpg?s=f238ebb441d0c6c8563d9b5f7792e84c7fd140f4");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#inception:hover {
+    background-image: url("https://static.posters.cz/image/1300/art-photo/inception-in-dream-i153513.jpg");
+    background-size: cover; 
+    background-position-y: -50px; 
+    
+
+}
+
+#dunkirk:hover {
+    background-image: url("https://media0018.elcinema.com/uploads/_640x_1a12813ecbd65cac53e0f32b1e7e6b1cb9264eb6bb0700ca9dd76550a3f8ddb7.jpg");
+}
+
+#peakyblinders:hover {
+    background-image: url("https://static.standard.co.uk/2022/01/17/11/PRI218907546.jpg?width=1024&auto=webp&quality=50&crop=968%3A645%2Csmart");
+    background-size: cover; 
+    background-position: center; 
+}
+
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+    color: black; 
+}
+
+a:link {
+    display: block; 
+}
+
+a:hover {
+    opacity: 0.5; 
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
